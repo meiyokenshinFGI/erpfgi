@@ -77,3 +77,4 @@ scheduler_events = {
 	]
 }
 
+fixtures = ["Website Settings"]

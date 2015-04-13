@@ -10,6 +10,7 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Journal Voucher",
+					"label": "Journal Entries",
 					"description": _("Accounting journal entries.")
 				},
 				{
@@ -100,6 +101,16 @@ def get_data():
 					"type": "doctype",
 					"name": "Accounts Settings",
 					"description": _("Default settings for accounting transactions.")
+				},
+				{
+					"type": "doctype",
+					"name": "Customer Group",
+					"description": _("Manage Customer Group")
+				},
+				{
+					"type": "doctype",
+					"name": "Supplier Type",
+					"description": _("Manage Supplier Type")
 				},
 				{
 					"type": "doctype",

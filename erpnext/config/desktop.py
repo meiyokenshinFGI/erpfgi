@@ -6,7 +6,8 @@ def get_data():
 		"Accounts": {
 			"color": "#3498db",
 			"icon": "icon-money",
-			"type": "module"
+			"type": "module",
+			"label": "Financials"
 		},
 		"Activity": {
 			"color": "#e67e22",
@@ -18,7 +19,8 @@ def get_data():
 		"Buying": {
 			"color": "#c0392b",
 			"icon": "icon-shopping-cart",
-			"type": "module"
+			"type": "module",
+			"label": "Purchasing"
 		},
 		"HR": {
 			"color": "#2ecc71",
@@ -53,7 +55,8 @@ def get_data():
 		"Selling": {
 			"color": "#1abc9c",
 			"icon": "icon-tag",
-			"type": "module"
+			"type": "module",
+			"label": "Sales"
 		},
 		"Stock": {
 			"color": "#f39c12",
