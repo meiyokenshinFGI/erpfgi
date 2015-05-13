@@ -250,30 +250,6 @@ def get_data():
 				},
 				{
 					"type": "report",
-					"name": "Ordered Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Sales Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Delivered Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Sales Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Purchase Order Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Purchase Invoice"
-				},
-				{
-					"type": "report",
-					"name": "Received Items To Be Billed",
-					"is_query_report": True,
-					"doctype": "Purchase Invoice"
-				},
-				{
-					"type": "report",
 					"name": "Bank Clearance Summary",
 					"is_query_report": True,
 					"doctype": "Journal Voucher"
