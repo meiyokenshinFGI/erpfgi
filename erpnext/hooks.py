@@ -76,5 +76,4 @@ scheduler_events = {
 		"erpnext.setup.doctype.backup_manager.backup_manager.take_backups_weekly"
 	]
 }
-
-fixtures = ["Notification Control","Website Settings","Purchase Taxes and Charges","Mode of Payment","Sales Taxes and Charges","Style Settings","Custom Field","Naming Series","Global Defaults","Print Settings","Letter Head","Journal Voucher","Features Setup"]
+fixtures = ["Custom Field"]

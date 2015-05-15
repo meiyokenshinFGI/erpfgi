@@ -236,6 +236,42 @@ def get_data():
 					"doctype": "Sales Invoice",
 					"is_query_report": True
 				},
+				{
+					"type": "report",
+					"name": "Cash Flow",
+					"doctype": "GL Entry",
+					"is_query_report": True
+				},
+				{
+					"type": "report",
+					"name": "Consolidated Trial Balance",
+					"doctype": "GL Entry",
+					"is_query_report": True
+				},
+				{
+					"type": "report",
+					"name": "Consolidated Balance Sheet",
+					"doctype": "GL Entry",
+					"is_query_report": True
+				},
+				{
+					"type": "report",
+					"name": "Consolidated General Ledger",
+					"doctype": "GL Entry",
+					"is_query_report": True
+				},
+				{
+					"type": "report",
+					"name": "Consolidated Accounts Payable",
+					"doctype": "Purchase Invoice",
+					"is_query_report": True
+				},
+				{
+					"type": "report",
+					"name": "Consolidated Accounts Receivable",
+					"doctype": "Sales Invoice",
+					"is_query_report": True
+				}
 			]
 		},
 		{
