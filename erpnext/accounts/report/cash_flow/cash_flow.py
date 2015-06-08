@@ -56,17 +56,17 @@ def execute(filters=None):
 
 def get_total_change (beginning_balance,net_profit_loss,asset,liability,period_list,data):
 	sa = {
-		"account_name": _("Beginning Balance"),
+		"account_name": _("Cash at the Beginning of Period"),
 		"account": None,
 		"warn_if_negative": True
 	}
 	movement={
-		"account_name": _("The increase and decrease in cash"),
+		"account_name": _("Net cash increse for period"),
 		"account": None,
 		"warn_if_negative": True
 	}
 	total={
-		"account_name": _("Total"),
+		"account_name": _("Cash at the end of Period"),
 		"account": None,
 		"warn_if_negative": True
 	}
@@ -98,7 +98,7 @@ def get_total_change (beginning_balance,net_profit_loss,asset,liability,period_l
 def get_net_profit_loss(income, expense, period_list):
 
 	net_profit_loss = {
-		"account_name": _("Profit and Loss"),
+		"account_name": _("Net Income"),
 		"account": None,
 		"warn_if_negative": True
 	}
